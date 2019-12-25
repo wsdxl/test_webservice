@@ -1,0 +1,63 @@
+'2019-12-23 07:29:44,021 - [test_send_msg.py-->line:53] - INFO: 用例-->发送短信验证码成功:执行已通过'
+'2019-12-23 07:29:44,289 - [test_send_msg.py-->line:53] - INFO: 用例-->client_ip为空:执行已通过'
+'2019-12-23 07:29:44,514 - [test_send_msg.py-->line:53] - INFO: 用例-->tmpl_id为空:执行已通过'
+'2019-12-23 07:29:44,751 - [test_send_msg.py-->line:48] - INFO: 用例-->mobile为空:执行未通过'
+'2019-12-23 07:29:44,751 - [test_send_msg.py-->line:49] - ERROR: "{'faultcode': soap:Server, 'faultstring': 手机号码不能为空}" != "{'faultcode': soap:Server, 'faultstring': 手机号码错误}"
+- {'faultcode': soap:Server, 'faultstring': 手机号码不能为空}
+?                                               ^^^^
++ {'faultcode': soap:Server, 'faultstring': 手机号码错误}
+?                                               ^^
+'
+'2019-12-23 07:29:45,034 - [test_send_msg.py-->line:53] - INFO: 用例-->tmpl_id为2:执行已通过'
+'2019-12-23 07:29:45,308 - [test_send_msg.py-->line:53] - INFO: 用例-->mobile为10位:执行已通过'
+'2019-12-23 07:29:45,557 - [test_send_msg.py-->line:53] - INFO: 用例-->mobile为12位:执行已通过'
+'2019-12-23 08:22:33,104 - [test_register.py-->line:61] - INFO: 用例-->正确注册:执行未通过'
+'2019-12-23 08:22:33,689 - [test_register.py-->line:61] - INFO: 用例-->正确注册-渠道信息非1，2，3:执行未通过'
+'2019-12-23 08:22:34,223 - [test_register.py-->line:61] - INFO: 用例-->验证码为空:执行未通过'
+'2019-12-23 08:22:34,853 - [test_register.py-->line:61] - INFO: 用例-->验证码错误:执行未通过'
+'2019-12-23 08:22:35,385 - [test_register.py-->line:61] - INFO: 用例-->用户名为空:执行未通过'
+'2019-12-23 08:22:35,950 - [test_register.py-->line:61] - INFO: 用例-->手机号为空:执行未通过'
+'2019-12-23 08:22:36,474 - [test_register.py-->line:61] - INFO: 用例-->手机号长度小于11位:执行未通过'
+'2019-12-23 08:22:37,045 - [test_register.py-->line:61] - INFO: 用例-->手机号大于11位:执行未通过'
+'2019-12-23 08:23:56,780 - [test_register.py-->line:61] - INFO: 用例-->正确注册:执行未通过'
+'2019-12-23 08:23:57,287 - [test_register.py-->line:61] - INFO: 用例-->正确注册-渠道信息非1，2，3:执行未通过'
+'2019-12-23 08:23:57,827 - [test_register.py-->line:61] - INFO: 用例-->验证码为空:执行未通过'
+'2019-12-23 08:23:58,481 - [test_register.py-->line:61] - INFO: 用例-->验证码错误:执行未通过'
+'2019-12-23 08:23:59,068 - [test_register.py-->line:61] - INFO: 用例-->用户名为空:执行未通过'
+'2019-12-23 08:23:59,620 - [test_register.py-->line:61] - INFO: 用例-->手机号为空:执行未通过'
+'2019-12-23 08:24:00,184 - [test_register.py-->line:61] - INFO: 用例-->手机号长度小于11位:执行未通过'
+'2019-12-23 08:24:00,793 - [test_register.py-->line:61] - INFO: 用例-->手机号大于11位:执行未通过'
+'2019-12-23 08:24:01,113 - [test_send_msg.py-->line:53] - INFO: 用例-->发送短信验证码成功:执行已通过'
+'2019-12-23 08:24:01,361 - [test_send_msg.py-->line:53] - INFO: 用例-->client_ip为空:执行已通过'
+'2019-12-23 08:24:01,605 - [test_send_msg.py-->line:53] - INFO: 用例-->tmpl_id为空:执行已通过'
+'2019-12-23 08:24:01,880 - [test_send_msg.py-->line:48] - INFO: 用例-->mobile为空:执行未通过'
+'2019-12-23 08:24:01,880 - [test_send_msg.py-->line:49] - ERROR: "{'faultcode': soap:Server, 'faultstring': 手机号码不能为空}" != "{'faultcode': soap:Server, 'faultstring': 手机号码错误}"
+- {'faultcode': soap:Server, 'faultstring': 手机号码不能为空}
+?                                               ^^^^
++ {'faultcode': soap:Server, 'faultstring': 手机号码错误}
+?                                               ^^
+'
+'2019-12-23 08:24:02,148 - [test_send_msg.py-->line:53] - INFO: 用例-->tmpl_id为2:执行已通过'
+'2019-12-23 08:24:02,371 - [test_send_msg.py-->line:53] - INFO: 用例-->mobile为10位:执行已通过'
+'2019-12-23 08:24:02,632 - [test_send_msg.py-->line:53] - INFO: 用例-->mobile为12位:执行已通过'
+'2019-12-23 08:27:19,163 - [test_register.py-->line:61] - INFO: 用例-->正确注册:执行未通过'
+'2019-12-23 08:27:19,698 - [test_register.py-->line:61] - INFO: 用例-->正确注册-渠道信息非1，2，3:执行未通过'
+'2019-12-23 08:27:20,239 - [test_register.py-->line:61] - INFO: 用例-->验证码为空:执行未通过'
+'2019-12-23 08:27:20,860 - [test_register.py-->line:61] - INFO: 用例-->验证码错误:执行未通过'
+'2019-12-23 08:27:21,392 - [test_register.py-->line:61] - INFO: 用例-->用户名为空:执行未通过'
+'2019-12-23 08:27:21,925 - [test_register.py-->line:61] - INFO: 用例-->手机号为空:执行未通过'
+'2019-12-23 08:27:22,456 - [test_register.py-->line:61] - INFO: 用例-->手机号长度小于11位:执行未通过'
+'2019-12-23 08:27:23,036 - [test_register.py-->line:61] - INFO: 用例-->手机号大于11位:执行未通过'
+'2019-12-23 08:27:23,358 - [test_send_msg.py-->line:53] - INFO: 用例-->发送短信验证码成功:执行已通过'
+'2019-12-23 08:27:23,624 - [test_send_msg.py-->line:53] - INFO: 用例-->client_ip为空:执行已通过'
+'2019-12-23 08:27:23,881 - [test_send_msg.py-->line:53] - INFO: 用例-->tmpl_id为空:执行已通过'
+'2019-12-23 08:27:24,175 - [test_send_msg.py-->line:48] - INFO: 用例-->mobile为空:执行未通过'
+'2019-12-23 08:27:24,176 - [test_send_msg.py-->line:49] - ERROR: "{'faultcode': soap:Server, 'faultstring': 手机号码不能为空}" != "{'faultcode': soap:Server, 'faultstring': 手机号码错误}"
+- {'faultcode': soap:Server, 'faultstring': 手机号码不能为空}
+?                                               ^^^^
++ {'faultcode': soap:Server, 'faultstring': 手机号码错误}
+?                                               ^^
+'
+'2019-12-23 08:27:24,433 - [test_send_msg.py-->line:53] - INFO: 用例-->tmpl_id为2:执行已通过'
+'2019-12-23 08:27:24,683 - [test_send_msg.py-->line:53] - INFO: 用例-->mobile为10位:执行已通过'
+'2019-12-23 08:27:24,939 - [test_send_msg.py-->line:53] - INFO: 用例-->mobile为12位:执行已通过'
